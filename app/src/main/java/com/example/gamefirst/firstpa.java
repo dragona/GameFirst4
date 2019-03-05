@@ -12,7 +12,7 @@ import android.widget.Button;
 public class firstpa extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.firstpas);
+        setContentView(R.layout.firstpass);
         Button firstbutton = (Button) findViewById(R.id.firstbutton);
         firstbutton.setOnClickListener(new View.OnClickListener(){
             @Override
